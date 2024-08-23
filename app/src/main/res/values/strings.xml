@@ -44,6 +44,10 @@
     <string name="ING_Bebida2">Vino Rosado, Blanco, Tinto</string>>
     <string name="ING_Bebida3">Coco, Cereza, Mango, Lima</string>>
 
+    <string name="ING_Postre1">Pastel de queso hecho a base de ricota, queso quark, azucar</string>>
+    <string name="ING_Postre2">Postre con una base de bizcochos bañados en café y cubiertos por una crema de huevos, queso mascarpone y azucar</string>>
+    <string name="ING_Postre3">Una base de focaccia crujiente cubierta con Nutella derretida y un toque de azúcar glas</string>>
+
     //PRECIO
     <string name="PRECIO_Plato1">$ 28.000</string>>
     <string name="PRECIO_Plato2">$ 35.000</string>>

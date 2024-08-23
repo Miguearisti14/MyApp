@@ -10,10 +10,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
 import java.util.ArrayList;
 
 public class ProductoActivity extends ListActivity {
@@ -62,7 +58,7 @@ public class ProductoActivity extends ListActivity {
         ProductoActual2.nombreProducto = this.getResources().getString(R.string.Entrada2);
         ProductoActual2.ingredientesProducto = this.getResources().getString(R.string.ING_Entrada2);
         ProductoActual2.precioProducto = this.getResources().getString(R.string.PRECIO_Entrada2);
-        ProductoActual2.imagenProducto = R.drawable.brus;
+        ProductoActual2.imagenProducto = R.drawable.foca;
         arregloProductos.add(ProductoActual2);
 
         //Entrada 3
@@ -70,7 +66,7 @@ public class ProductoActivity extends ListActivity {
         ProductoActual3.nombreProducto = this.getResources().getString(R.string.Entrada3);
         ProductoActual3.ingredientesProducto = this.getResources().getString(R.string.ING_Entrada3);
         ProductoActual3.precioProducto = this.getResources().getString(R.string.PRECIO_Entrada3);
-        ProductoActual3.imagenProducto = R.drawable.brus;
+        ProductoActual3.imagenProducto = R.drawable.aran;
         arregloProductos.add(ProductoActual3);
 
     }
@@ -120,7 +116,7 @@ public class ProductoActivity extends ListActivity {
             TextView ingredientesPorducto = (TextView) view.findViewById(R.id.textViewIngredientes);
             ingredientesPorducto.setText(arregloProductos.get(position).ingredientesProducto);
 
-            TextView precioPorducto = (TextView) view.findViewById(R.id.textViewPrecio);
+            TextView precioPorducto = (TextView) view.findViewById(R.id.textViewPrecioProducto);
             precioPorducto.setText(arregloProductos.get(position).precioProducto);
 
 

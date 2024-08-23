@@ -56,7 +56,7 @@
                 android:textColor="#1F1E1E" />
 
             <TextView
-                android:id="@+id/textViewPrecio"
+                android:id="@+id/textViewPrecioProducto"
                 android:layout_width="match_parent"
                 android:layout_height="34dp"
 

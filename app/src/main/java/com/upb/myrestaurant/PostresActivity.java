@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class BebidasActivity extends ListActivity {
+public class PostresActivity extends ListActivity {
 
     public class Producto {
         private String nombreProducto;
@@ -22,14 +22,14 @@ public class BebidasActivity extends ListActivity {
         private Integer imagenProducto;
     }
 
-    private BebidasActivity.MyAdapter adaptador = null;
-    private static ArrayList<Producto> arregloProductos = new ArrayList<BebidasActivity.Producto>();
+    private PostresActivity.MyAdapter adaptador = null;
+    private static ArrayList<Producto> arregloProductos = new ArrayList<PostresActivity.Producto>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setData();
-        adaptador = new BebidasActivity.MyAdapter(this);
+        adaptador = new PostresActivity.MyAdapter(this);
         setListAdapter(adaptador);
 
 
@@ -45,30 +45,29 @@ public class BebidasActivity extends ListActivity {
     private void setData(){
         arregloProductos.clear();
 
+        //Postre 1
+        PostresActivity.Producto PostreActual1 = new PostresActivity.Producto();
+        PostreActual1.nombreProducto = this.getResources().getString(R.string.Postre2);
+        PostreActual1.ingredientesProducto = this.getResources().getString(R.string.ING_Postre1);
+        PostreActual1.precioProducto = this.getResources().getString(R.string.PRECIO_Postre2);
+        PostreActual1.imagenProducto = R.drawable.chees;
+        arregloProductos.add(PostreActual1);
 
-        //Bebida 1
-        BebidasActivity.Producto bebidaActual1 = new BebidasActivity.Producto();
-        bebidaActual1.nombreProducto = this.getResources().getString(R.string.Bebida1);
-        bebidaActual1.ingredientesProducto = this.getResources().getString(R.string.ING_Bebida1);
-        bebidaActual1.precioProducto = this.getResources().getString(R.string.PRECIO_Bebida1);
-        bebidaActual1.imagenProducto = R.drawable.cafe;
-        arregloProductos.add(bebidaActual1);
+        //Postre 2
+        PostresActivity.Producto PostreActual2 = new PostresActivity.Producto();
+        PostreActual2.nombreProducto = this.getResources().getString(R.string.Postre1);
+        PostreActual2.ingredientesProducto = this.getResources().getString(R.string.ING_Postre2);
+        PostreActual2.precioProducto = this.getResources().getString(R.string.PRECIO_Postre1);
+        PostreActual2.imagenProducto = R.drawable.tiramisu;
+        arregloProductos.add(PostreActual2);
 
-        //Bebida 2
-        BebidasActivity.Producto bebidaActual2 = new BebidasActivity.Producto();
-        bebidaActual2.nombreProducto = this.getResources().getString(R.string.Bebida2);
-        bebidaActual2.ingredientesProducto = this.getResources().getString(R.string.ING_Bebida2);
-        bebidaActual2.precioProducto = this.getResources().getString(R.string.PRECIO_Bebida2);
-        bebidaActual2.imagenProducto = R.drawable.vino;
-        arregloProductos.add(bebidaActual2);
-
-        //Bebida 3
-        BebidasActivity.Producto bebidaActual3 = new BebidasActivity.Producto();
-        bebidaActual3.nombreProducto = this.getResources().getString(R.string.Bebida3);
-        bebidaActual3.ingredientesProducto = this.getResources().getString(R.string.ING_Bebida3);
-        bebidaActual3.precioProducto = this.getResources().getString(R.string.PRECIO_Bebida3);
-        bebidaActual3.imagenProducto = R.drawable.limonada;
-        arregloProductos.add(bebidaActual3);
+        //Postre 3
+        PostresActivity.Producto PostreActual3 = new PostresActivity.Producto();
+        PostreActual3.nombreProducto = this.getResources().getString(R.string.Postre3);
+        PostreActual3.ingredientesProducto = this.getResources().getString(R.string.ING_Postre3);
+        PostreActual3.precioProducto = this.getResources().getString(R.string.PRECIO_Postre3);
+        PostreActual3.imagenProducto = R.drawable.foacnu;
+        arregloProductos.add(PostreActual3);
 
     }
 
@@ -122,9 +121,9 @@ public class BebidasActivity extends ListActivity {
 
 
             return view;
-}
+        }
 
-}
+    }
 
 
 }

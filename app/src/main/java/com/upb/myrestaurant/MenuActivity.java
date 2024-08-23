@@ -56,19 +56,19 @@ public class MenuActivity extends ListActivity {
 
         else if(position == 1) {
             Intent i;
-            i = new Intent(this, BebidasActivity.class);
+            i = new Intent(this, PlatosActivity.class);
             startActivity(i);
         }
 
         else if(position == 2) {
             Intent i;
-            i = new Intent(this, ProductoActivity.class);
+            i = new Intent(this, BebidasActivity.class);
             startActivity(i);
         }
 
         else if(position == 3) {
             Intent i;
-            i = new Intent(this, ProductoActivity.class);
+            i = new Intent(this, PostresActivity.class);
             startActivity(i);
         }
 

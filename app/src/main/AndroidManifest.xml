@@ -17,10 +17,13 @@
         android:theme="@style/Theme.MyRestaurant"
         tools:targetApi="31">
         <activity
-            android:name=".PlatosActivity"
+            android:name=".PostresActivity"
             android:exported="false" />
         <activity
             android:name=".BebidasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlatosActivity"
             android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
