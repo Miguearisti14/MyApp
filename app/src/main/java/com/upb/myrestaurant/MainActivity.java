@@ -78,6 +78,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void abrirInfo (View v){
+        Intent i;
+
+        i = new Intent(this, SedeActivity.class);
+        startActivity(i);
+
+    }
+
     }
 
 

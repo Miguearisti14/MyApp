@@ -9,6 +9,11 @@
     <string name="app_Bienvenida">Bienvenid@.¿Que desea hacer?</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="menu">¿Que Deseas Explorar?</string>
+    <string name="sede">Sobre Nosotros</string>
+    <string name="direccion">Direccion: Calle 34F # 91 - 64</string>
+    <string name="telefono">Telefono: 312 555 8997</string>
+    <string name="correo">Correo: elitaliano@gmail.com</string>
+    <string name="mapa">Conoce todas nuestras sedes</string>
 
     //NOMBRE
     <string name="Entrada1">Bruschettas</string>>

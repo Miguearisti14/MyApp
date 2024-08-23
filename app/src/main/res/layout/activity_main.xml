@@ -136,7 +136,7 @@
             android:layout_gravity="center_vertical|center_horizontal"
             android:backgroundTint="#E44521"
             android:drawableLeft="@drawable/info"
-            android:onClick="abrirSedes"
+            android:onClick="abrirInfo"
             android:text="@string/app_info"
             android:textAlignment="textStart" />
 
