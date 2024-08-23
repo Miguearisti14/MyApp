@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">MyRestaurant</string>
+    <string name="rest_name">EL ITALIANO</string>
+    <string name="app_menu">Explorar el menú</string>
+    <string name="app_pedido">Realizar un Pedido</string>
+    <string name="app_reserva">Reservar una Mesa</string>
+    <string name="app_info">Conocer más Sobre el Sitio</string>
+    <string name="app_calificar">Calificarnos</string>
+    <string name="app_Bienvenida">Bienvenid@.¿Que desea hacer?</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="menu">¿Que Deseas Explorar?</string>
+
+    //NOMBRE
+    <string name="Entrada1">Bruschettas</string>>
+    <string name="Entrada2">Focaccia</string>>
+    <string name="Entrada3">Arancini</string>>
+
+    <string name="Plato1">Pizza</string>>
+    <string name="Plato2">Spaghetti</string>>
+    <string name="Plato3">Lasagna</string>>
+
+    <string name="Bebida1">Cafe</string>>
+    <string name="Bebida2">Vino</string>>
+    <string name="Bebida3">Limonada</string>>
+
+    <string name="Postre1">Tiramisu</string>>
+    <string name="Postre2">Cheescake</string>>
+    <string name="Postre3">Focaccia de Nutella</string>>
+
+    //INGREDIENTE
+    <string name="ING_Plato1">Pepperoni, Vegetariana, Siciliana, Hawaiana, Daivola, Saporita</string>
+    >
+    <string name="ING_Plato2">Pomodoro, Alfredo, Pesto, Amatriciana, Carbonara, Della Casa, Frutti Di Mare</string>
+    >
+    <string name="ING_Plato3">Bolognesa, Pollo e Funghi, Mixta</string>>
+
+    <string name="ING_Entrada1">Tajadas de pan tostado recien horneado con tomate picado y queso de bufala</string>
+    >
+    <string name="ING_Entrada2">Pan plano con aceite de ajo y oregano</string>>
+    <string name="ING_Entrada3">Bolas y/o conos de arroz relleno</string>>
+
+    <string name="ING_Bebida1">Cafe a Eleccion (Suave, fuerte, extrafuerte) en leche o en agua</string>
+    >
+    <string name="ING_Bebida2">Vino Rosado, Blanco, Tinto</string>>
+    <string name="ING_Bebida3">Coco, Cereza, Mango, Lima</string>>
+
+    //PRECIO
+    <string name="PRECIO_Plato1">$ 28.000</string>>
+    <string name="PRECIO_Plato2">$ 35.000</string>>
+    <string name="PRECIO_Plato3">$ 30.000</string>>
+
+    <string name="PRECIO_Entrada1">$ 18.000</string>>
+    <string name="PRECIO_Entrada2">$ 12.000</string>>
+    <string name="PRECIO_Entrada3">$ 18.000</string>>
+
+    <string name="PRECIO_Bebida1">$ 5.000</string>>
+    <string name="PRECIO_Bebida2">$ 20.000</string>>
+    <string name="PRECIO_Bebida3">$ 8.000</string>>
+
+    <string name="PRECIO_Postre1">$ 12.000</string>>
+    <string name="PRECIO_Postre2">$ 12.000</string>>
+    <string name="PRECIO_Postre3">$ 15.000</string>>
+
+
+</resources>
