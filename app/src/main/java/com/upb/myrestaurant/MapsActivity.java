@@ -55,24 +55,24 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap.addMarker(new MarkerOptions().position(laureles).title("El Italiano: Sede Laureles")
                 .snippet("El Verdadero Sabor Italiano")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.menu))
-                .rotation(-45.0f)
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.tenedor))
+
         );
         mMap.addMarker(new MarkerOptions().position(centro).title("El Italiano: Sede Centro")
                 .snippet("El Verdadero Sabor Italiano")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.menu))
-                .rotation(-45.0f)
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.tenedor))
+
         );
 
         mMap.addMarker(new MarkerOptions().position(poblado).title("El Italiano: Sede Poblado")
                 .snippet("El Verdadero Sabor Italiano")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.menu))
-                .rotation(-45.0f)
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.tenedor))
+
         );
         mMap.addMarker(new MarkerOptions().position(norte).title("El Italiano: Sede Norte")
                 .snippet("El Verdadero Sabor Italiano")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.menu))
-                .rotation(-45.0f)
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.tenedor))
+
         );
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(medellin,12));
