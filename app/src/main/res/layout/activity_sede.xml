@@ -32,6 +32,10 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
@@ -40,7 +44,25 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="26dp" />
+            android:layout_height="27dp" />
+
+        <Button
+            android:id="@+id/buttonMenu"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:backgroundTint="#E64624"
+            android:drawableLeft="@drawable/menu"
+            android:onClick="abrirSedes"
+            android:text="@string/mapa"
+            android:textAlignment="textStart"
+            android:textSize="12sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -73,24 +95,6 @@
             android:text="@string/correo"
             android:textColor="#141212"
             android:textStyle="bold" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="26dp" />
-
-        <Button
-            android:id="@+id/buttonMenu"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_gravity="center_vertical|center_horizontal"
-            android:backgroundTint="#E64624"
-            android:drawableLeft="@drawable/menu"
-            android:onClick="abrirSedes"
-            android:text="@string/mapa"
-            android:textAlignment="textStart"
-            android:textSize="12sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
